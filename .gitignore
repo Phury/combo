@@ -1,9 +1,4 @@
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.ear
@@ -12,25 +7,25 @@
 hs_err_pid*
 
 # eclipse project settings
-.project
-.settings
-.classpath
-.metadata
+**/.project
+**/.settings
+**/.classpath
+**/.metadata
 
 # User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/dictionaries
 
 # Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.xml
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+**/.idea/**/uiDesigner.xml
 
 # Maven
-log/
-target/
+**/log/
+**/target/
