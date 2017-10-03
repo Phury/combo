@@ -1,0 +1,1 @@
+mvn package & java -jar target/hits-1.0-SNAPSHOT.jar
