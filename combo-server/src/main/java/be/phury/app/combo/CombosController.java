@@ -3,7 +3,6 @@ package be.phury.app.combo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -13,11 +12,6 @@ import java.util.List;
 public class CombosController {
 
     @Autowired private ComboRepository repository;
-
-    @RequestMapping(path = "/")
-    public String index() {
-        return "Combo server, v0.1";
-    }
 
     @RequestMapping(path = "/combo")
     public List<Combo> comboList() {

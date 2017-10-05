@@ -1,5 +1,6 @@
 package be.phury.app.combo;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
@@ -14,28 +15,8 @@ import java.util.stream.Collectors;
 @Service
 public class ComboRepository {
 
-    private List<Combo> repository = Arrays.asList(
-        new Combo(){{
-            setName("draw 10 minutes");
-            setHits(42);
-            setHitsLimit(31);
-        }},
-        new Combo(){{
-            setName("drink 5 glasses of water a day");
-            setHits(16);
-            setHitsLimit(3);
-        }},
-        new Combo(){{
-            setName("do 100 suburi");
-            setHits(2);
-            setHitsLimit(31);
-        }},
-        new Combo(){{
-            setName("go to fitness");
-            setHits(10);
-            setHitsLimit(7);
-        }}
-    );
+    @Autowired
+    private List<Combo> repository;
 
     public List<Combo> list() {
         return Collections.unmodifiableList(repository);
