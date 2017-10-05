@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>be.phury.app</groupId>
-    <artifactId>hits</artifactId>
+    <artifactId>combo-server</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
