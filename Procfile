@@ -1,1 +1,0 @@
-web:    java $JAVA_OPTS -jar combo-server/target/combo-server-1.0-SNAPSHOT.jar

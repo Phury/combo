@@ -1,7 +1,0 @@
-language: java
-
-before_script:
-    - cd combo-server
-
-script: 
-    - mvn clean package
