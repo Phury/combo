@@ -1,0 +1,18 @@
+<section class="app-shell">
+  <header>
+    <h1><span class="count">{{suburiTotal$ | async}}</span> suburi</h1>
+    <p>{{suburiStreak$ | async}} days streak</p>
+  </header>
+  <section class="app-body">
+    <div class="timeline">
+      <section class="timeline-item wow bounceInUp" *ngFor="let suburi of suburi$ | async">
+        <div class="timeline-icon"></div>
+        <div class="timeline-content">
+          <p class="meta date">{{suburi.date | date:'d MMM'}}</p>
+          <p class="meta">{{suburi.count}}  suburi</p>
+        </div>
+      </section>
+    </div>
+  </section>
+</section>
+<router-outlet></router-outlet>

@@ -1,29 +1,27 @@
 # Combo
 
-A web app to keep you doing stuff
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
 
+## Development server
 
-# Todo
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-* backend
-** add persistent repository
-* frontend
-** create SFII inspired UI
-* user creates combos
-* user defines goals for combos (daily, weekly)
-* deploy server in cloud (heroku or amazon)
-* gamification
+## Code scaffolding
 
-# Release notes
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## v0.01
+## Build
 
-* backend
-** springboot server
-** cors filter in springboot server
-** static repository
-* frontend
-** react app
-** display the combos
-** button click handles server updates
-** simple progess bar with levels
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
